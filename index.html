@@ -1,17 +1,69 @@
-<!DOCTYPE html>asda
+<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>flex Box</title>
+  <title>tabelas</title>
+  <style>
+    table td,
+    table th {
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse; 
+    }
+    tfoot td{
+      background-color: #928c8c;
+    }
+  </style>
 </head>
+<h1>tabelas</h1>
+<table>
+  <caption> uma descrição </caption>
+  <thead>
+    <tr>
+      <th>Título01</th>
+      <th>Título02</th>
+      <th>Título03</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pao</td>
+      <td>fejão</td>
+      <td rowspan="2" >aloiz</td>
+    </tr>
+    <tr>
+      <td>pao</td>
+      <td>fejão</td>
+      
+    </tr>
+    <tr>
+      <td colspan="2">pao</td>
+      
+      <td>aloiz</td>
+    </tr>
+  </tbody>
+    <tfoot>
+      <tr>
+        <td>pao</td>
+        <td>fejão</td>
+        <td>aloiz</td>
+      </tr>
+    </tfoot>
+</table>
 
 <body>
   <section class="section-one"></section>
   <section class="section-two"></section>
 </body>
 
-</html> a s d a s d a s da s d a s d
-D
+</html>
