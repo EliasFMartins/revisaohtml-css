@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tabelas</title>
   <style>
+    .responsive{
+      max-width: 100%;
+      overflow-x: auto;
+    }
     table td,
     table th {
       border: 1px solid #ccc;
@@ -19,6 +23,7 @@
 
     table {
       border-collapse: collapse; 
+      width: 100% ;
     }
     tfoot td{
       background-color: #928c8c;
@@ -26,6 +31,7 @@
   </style>
 </head>
 <h1>tabelas</h1>
+<div class="responsive" >
 <table>
   <caption> uma descrição </caption>
   <thead>
@@ -60,7 +66,7 @@
       </tr>
     </tfoot>
 </table>
-
+</div>
 <body>
   <section class="section-one"></section>
   <section class="section-two"></section>
