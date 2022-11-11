@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* a direção do eixo principal determina a poha toda  basicamente falando  */
+/* a direção da flex direction muda tudo */
+/* a direção for row a direção e  <-> */
+/* a direção coluw e assim | */
+/* o aline intens so meche no eixo perpenticular */
+/* justify content so meche no eixo principal */
+.flex-container {
+  background-color: aquamarine;
+  flex-direction: column; /* na vertical*/
+  display: flex ;/* por padrão  e block = ou bloco*/
+  justify-content: center;
+  align-items:  stretch;  /* esticado*/
+  height:  500px;
+}
+.flex-item {
+  width: 100%;
+  background-color: red;
+  margin: 10px;
+}
+/* :nth-child(escolhe o filho do emento exemplo o terceiro filho e tals) */
+/* @media (max-width: 768px) {} */
+/* medias */
